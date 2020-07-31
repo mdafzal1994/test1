@@ -1,0 +1,7 @@
+Dependencies for Project 'test1', Target 'Target 1': (DO NOT MODIFY !)
+F (.\STM32F10x.s)(0x4A02A56E)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" --list "STM32F10x.lst" --xref -o "STM32F10x.o")
+F (.\test.c)(0x5F0DEAE3)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -o "test.o" --omf_browse "test.crf" --depend "test.d")
+I (C:\Keil\ARM\INC\ST\STM32F10x\stm32F10x.h)(0x4A4B2356)
+I (C:\Keil\ARM\RV31\INC\core_cm3.h)(0x4B8639DE)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x4B8639DE)
+I (C:\Keil\ARM\INC\ST\STM32F10x\system_stm32f10x.h)(0x4A4B2356)

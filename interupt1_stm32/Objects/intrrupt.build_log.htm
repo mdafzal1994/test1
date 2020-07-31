@@ -1,0 +1,133 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: afzal Sanan, ims, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.31.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.14
+Assembler:       Armasm.exe V6.14
+Linker/Locator:  ArmLink.exe V6.14
+Library Manager: ArmAr.exe V6.14
+Hex Converter:   FromElf.exe V6.14
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.163.4.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+C:\Users\hp-pc\Desktop\afzal\code\stm32\interupt1_stm32\intrrupt.uvprojx
+Project File Date:  07/23/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.14', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+assembling startup_stm32f407xx.s...
+../new2/MAIN.c(1): warning: In file included from...
+../new2/_HAL_GPIO3.h(304): warning: In file included from...
+../new2/stm32f407xx_gpio_driver.h(6): warning: In file included from...
+../new2/_HAL_GPIO3.h(306): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+../new2/MAIN.c(1): warning: In file included from...
+../new2/_HAL_GPIO3.h(304): warning: In file included from...
+../new2/stm32f407xx_gpio_driver.h(138): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+../new2/MAIN.c(1): warning: In file included from...
+../new2/_HAL_GPIO3.h(306): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+../new2/MAIN.c(20): warning: no previous prototype for function 'EXTI9_5_IRQHandler' [-Wmissing-prototypes]
+        void EXTI9_5_IRQHandler(void)
+             ^
+../new2/MAIN.c(20): note: declare 'static' if the function is not intended to be used outside of this translation unit
+        void EXTI9_5_IRQHandler(void)
+        ^
+        static 
+../new2/MAIN.c(1): warning: In file included from...
+../new2/_HAL_GPIO3.h(304): warning: In file included from...
+../new2/stm32f407xx_gpio_driver.h(34): warning: padding size of 'GPIO_Handle_t' with 2 bytes to alignment boundary [-Wpadded]
+ typedef struct
+         ^
+../new2/MAIN.c(96): warning: no newline at end of file [-Wnewline-eof]
+        
+        ^
+../new2/MAIN.c(91): warning: 'return' will never be executed [-Wunreachable-code-return]
+return 0;
+       ^
+7 warnings generated.
+compiling MAIN.c...
+../new2/stm32f407xx_gpio_driver.c(1): warning: In file included from...
+../new2/stm32f407xx_gpio_driver.h(6): warning: In file included from...
+../new2/_HAL_GPIO3.h(304): warning: In file included from...
+../new2/stm32f407xx_gpio_driver.h(138): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+../new2/stm32f407xx_gpio_driver.c(1): warning: In file included from...
+../new2/stm32f407xx_gpio_driver.h(6): warning: In file included from...
+../new2/_HAL_GPIO3.h(306): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+../new2/stm32f407xx_gpio_driver.c(1): warning: In file included from...
+../new2/stm32f407xx_gpio_driver.h(138): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+../new2/stm32f407xx_gpio_driver.c(97): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        pGPIOHandle->pGPIOx->AFR[temp1] |=(pGPIOHandle->GPIO_PinConfig.GPIO_PinAltFunMode<<(4*temp2));                  
+                                        ~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../new2/stm32f407xx_gpio_driver.c(1): warning: In file included from...
+../new2/stm32f407xx_gpio_driver.h(34): warning: padding size of 'GPIO_Handle_t' with 2 bytes to alignment boundary [-Wpadded]
+ typedef struct
+         ^
+../new2/stm32f407xx_gpio_driver.c(280): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+         *(NIVC_PR_BASE_ADDR+iprx*4)|=(IRQPriority<<shift_amount);
+                                    ~~ ~~~~~~~~~~~^~~~~~~~~~~~~~
+../new2/stm32f407xx_gpio_driver.c(299): warning: no newline at end of file [-Wnewline-eof]
+                
+                ^
+7 warnings generated.
+compiling stm32f407xx_gpio_driver.c...
+compiling system_stm32f4xx.c...
+linking...
+Program Size: Code=1288 RO-data=408 RW-data=0 ZI-data=1632  
+".\Objects\intrrupt.axf" - 0 Error(s), 14 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.14.0.pack
+                Keil.STM32F4xx_DFP.2.14.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 2.6.3
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Users\hp-pc\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\hp-pc\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+
+   * Component: Keil::Device:Startup:2.6.3
+      Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f407xx.s
+      Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
+      Source file:   MDK\Device\Source\ARM\STM32F40xxx_41xxx_OPT.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

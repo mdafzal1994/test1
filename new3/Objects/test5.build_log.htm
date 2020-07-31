@@ -1,0 +1,271 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: afzal Sanan, ims, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.31.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.14
+Assembler:       Armasm.exe V6.14
+Linker/Locator:  ArmLink.exe V6.14
+Library Manager: ArmAr.exe V6.14
+Hex Converter:   FromElf.exe V6.14
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.163.4.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+C:\Users\hp-pc\Desktop\afzal\code\stm32\new3\test5.uvprojx
+Project File Date:  07/23/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.14', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+assembling startup_stm32f407xx.s...
+MAIN.c(1): warning: In file included from...
+./_HAL_GPIO3.h(304): warning: In file included from...
+./stm32f407xx_gpio_driver.h(6): warning: In file included from...
+./_HAL_GPIO3.h(306): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+MAIN.c(1): warning: In file included from...
+./_HAL_GPIO3.h(304): warning: In file included from...
+./stm32f407xx_gpio_driver.h(138): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+MAIN.c(1): warning: In file included from...
+./_HAL_GPIO3.h(306): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+MAIN.c(2): warning: In file included from...
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f4xx.h(149): warning: In file included from...
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h(927): warning: 'PERIPH_BASE' macro redefined [-Wmacro-redefined]
+#define PERIPH_BASE           0x40000000UL /*!< Peripheral base address in the alias region                                */
+        ^
+./_HAL_GPIO3.h(101): note: previous definition is here
+ #define  PERIPH_BASE                        0x40000000U
+          ^
+MAIN.c(2): warning: In file included from...
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f4xx.h(149): warning: In file included from...
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h(945): warning: 'APB2PERIPH_BASE' macro redefined [-Wmacro-redefined]
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x00010000UL)
+        ^
+./_HAL_GPIO3.h(103): note: previous definition is here
+ #define  APB2PERIPH_BASE                                0x40010000U
+          ^
+MAIN.c(2): warning: In file included from...
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f4xx.h(149): warning: In file included from...
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h(946): warning: 'AHB1PERIPH_BASE' macro redefined [-Wmacro-redefined]
+#define AHB1PERIPH_BASE       (PERIPH_BASE + 0x00020000UL)
+        ^
+./_HAL_GPIO3.h(99): note: previous definition is here
+ #define  AHB1PERIPH_BASE                          0x40020000U
+          ^
+MAIN.c(2): warning: In file included from...
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f4xx.h(149): warning: In file included from...
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h(947): warning: 'AHB2PERIPH_BASE' macro redefined [-Wmacro-redefined]
+#define AHB2PERIPH_BASE       (PERIPH_BASE + 0x10000000UL)
+        ^
+./_HAL_GPIO3.h(100): note: previous definition is here
+ #define  AHB2PERIPH_BASE                                  0x50000000U
+          ^
+MAIN.c(2): warning: In file included from...
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f4xx.h(149): warning: In file included from...
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h(1114): warning: 'SYSCFG' macro redefined [-Wmacro-redefined]
+#define SYSCFG              ((SYSCFG_TypeDef *) SYSCFG_BASE)
+        ^
+./_HAL_GPIO3.h(251): note: previous definition is here
+                        #define SYSCFG     (( SYSCFG_RegDef_t*)SYSCFG_BASEADDR )
+                                ^
+MAIN.c(2): warning: In file included from...
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f4xx.h(149): warning: In file included from...
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h(1115): warning: 'EXTI' macro redefined [-Wmacro-redefined]
+#define EXTI                ((EXTI_TypeDef *) EXTI_BASE)
+        ^
+./_HAL_GPIO3.h(249): note: previous definition is here
+                #define EXTI       ((EXTI_RegDef_t*)EXTI_BASEADDR)
+                        ^
+MAIN.c(2): warning: In file included from...
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f4xx.h(149): warning: In file included from...
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h(1119): warning: 'GPIOA' macro redefined [-Wmacro-redefined]
+#define GPIOA               ((GPIO_TypeDef *) GPIOA_BASE)
+        ^
+./_HAL_GPIO3.h(241): note: previous definition is here
+                #define GPIOA ((GPIO_RegDef_t*)GPIOA_BASEADDR)
+                        ^
+MAIN.c(2): warning: In file included from...
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f4xx.h(149): warning: In file included from...
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h(1120): warning: 'GPIOB' macro redefined [-Wmacro-redefined]
+#define GPIOB               ((GPIO_TypeDef *) GPIOB_BASE)
+        ^
+./_HAL_GPIO3.h(242): note: previous definition is here
+                #define GPIOB ((GPIO_RegDef_t*)GPIOB_BASEADDR)
+                        ^
+MAIN.c(2): warning: In file included from...
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f4xx.h(149): warning: In file included from...
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h(1121): warning: 'GPIOC' macro redefined [-Wmacro-redefined]
+#define GPIOC               ((GPIO_TypeDef *) GPIOC_BASE)
+        ^
+./_HAL_GPIO3.h(243): note: previous definition is here
+                #define GPIOC ((GPIO_RegDef_t*)GPIOC_BASEADDR)
+                        ^
+MAIN.c(2): warning: In file included from...
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f4xx.h(149): warning: In file included from...
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h(1122): warning: 'GPIOD' macro redefined [-Wmacro-redefined]
+#define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+        ^
+./_HAL_GPIO3.h(244): note: previous definition is here
+                #define GPIOD ((GPIO_RegDef_t*)GPIOD_BASEADDR)
+                        ^
+MAIN.c(2): warning: In file included from...
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f4xx.h(149): warning: In file included from...
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h(1123): warning: 'GPIOE' macro redefined [-Wmacro-redefined]
+#define GPIOE               ((GPIO_TypeDef *) GPIOE_BASE)
+        ^
+./_HAL_GPIO3.h(245): note: previous definition is here
+                #define GPIOE ((GPIO_RegDef_t*)GPIOE_BASEADDR)
+                        ^
+MAIN.c(2): warning: In file included from...
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f4xx.h(149): warning: In file included from...
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h(1129): warning: 'RCC' macro redefined [-Wmacro-redefined]
+#define RCC                 ((RCC_TypeDef *) RCC_BASE)
+        ^
+./_HAL_GPIO3.h(247): note: previous definition is here
+                #define RCC        ((RCC_RegDef_t*)RCC_BASEADDR)
+                        ^
+MAIN.c(2): warning: In file included from...
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f4xx.h(203): error: expected identifier
+  RESET = 0U, 
+  ^
+./_HAL_GPIO3.h(84): note: expanded from macro 'RESET'
+ #define  RESET           DISABLE 
+                          ^
+./_HAL_GPIO3.h(82): note: expanded from macro 'DISABLE'
+ #define  DISABLE         0
+                          ^
+MAIN.c(2): warning: In file included from...
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f4xx.h(204): error: expected identifier
+  SET = !RESET
+  ^
+./_HAL_GPIO3.h(83): note: expanded from macro 'SET'
+ #define  SET             ENABLE 
+                          ^
+./_HAL_GPIO3.h(81): note: expanded from macro 'ENABLE'
+ #define  ENABLE          1
+                          ^
+MAIN.c(2): warning: In file included from...
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f4xx.h(209): error: expected identifier
+  DISABLE = 0U, 
+  ^
+./_HAL_GPIO3.h(82): note: expanded from macro 'DISABLE'
+ #define  DISABLE         0
+                          ^
+MAIN.c(2): warning: In file included from...
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f4xx.h(210): error: expected identifier
+  ENABLE = !DISABLE
+  ^
+./_HAL_GPIO3.h(81): note: expanded from macro 'ENABLE'
+ #define  ENABLE          1
+                          ^
+MAIN.c(20): warning: no previous prototype for function 'EXTI9_5_IRQHandler' [-Wmissing-prototypes]
+        void EXTI9_5_IRQHandler(void)
+             ^
+MAIN.c(20): note: declare 'static' if the function is not intended to be used outside of this translation unit
+        void EXTI9_5_IRQHandler(void)
+        ^
+        static 
+MAIN.c(32): warning: incompatible pointer types passing 'GPIO_TypeDef *' to parameter of type 'GPIO_RegDef_t *' [-Wincompatible-pointer-types]
+        GPIO_PeriClockControl(GPIOD,ENABLE);  //enable portd clock
+                              ^~~~~
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h(1122): note: expanded from macro 'GPIOD'
+#define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./stm32f407xx_gpio_driver.h(106): note: passing argument to parameter 'pGPIOx' here
+ void GPIO_PeriClockControl(GPIO_RegDef_t *pGPIOx,uint8_t EnorDi);
+                                           ^
+MAIN.c(39): warning: incompatible pointer types passing 'GPIO_TypeDef *' to parameter of type 'GPIO_RegDef_t *' [-Wincompatible-pointer-types]
+          GPIO_PeriClockControl(GPIOD,ENABLE);
+                                ^~~~~
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h(1122): note: expanded from macro 'GPIOD'
+#define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./stm32f407xx_gpio_driver.h(106): note: passing argument to parameter 'pGPIOx' here
+ void GPIO_PeriClockControl(GPIO_RegDef_t *pGPIOx,uint8_t EnorDi);
+                                           ^
+MAIN.c(40): warning: incompatible pointer types assigning to 'GPIO_RegDef_t *' from 'GPIO_TypeDef *' [-Wincompatible-pointer-types]
+    GButton.pGPIOx=GPIOD;
+                  ^~~~~~
+MAIN.c(1): warning: In file included from...
+./_HAL_GPIO3.h(304): warning: In file included from...
+./stm32f407xx_gpio_driver.h(34): warning: padding size of 'GPIO_Handle_t' with 2 bytes to alignment boundary [-Wpadded]
+ typedef struct
+         ^
+MAIN.c(49): warning: incompatible pointer types assigning to 'GPIO_RegDef_t *' from 'GPIO_TypeDef *' [-Wincompatible-pointer-types]
+        Gpioled.pGPIOx=GPIOD;
+                      ^~~~~~
+MAIN.c(73): warning: incompatible pointer types passing 'GPIO_TypeDef *' to parameter of type 'GPIO_RegDef_t *' [-Wincompatible-pointer-types]
+            if(GPIO_ReadFromInputPin(GPIOA,GPIO_PIN_NO_0)==(uint8_t)0X00000001)
+                                     ^~~~~
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h(1119): note: expanded from macro 'GPIOA'
+#define GPIOA               ((GPIO_TypeDef *) GPIOA_BASE)
+                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./stm32f407xx_gpio_driver.h(114): note: passing argument to parameter 'pGPIOx' here
+ uint8_t GPIO_ReadFromInputPin(GPIO_RegDef_t *pGPIOx,uint8_t PinNumber);
+                                              ^
+MAIN.c(76): warning: incompatible pointer types passing 'GPIO_TypeDef *' to parameter of type 'GPIO_RegDef_t *' [-Wincompatible-pointer-types]
+               GPIO_ToggleOutputPin(GPIOD,GPIO_PIN_NO_12);
+                                    ^~~~~
+C:/Users/hp-pc/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h(1122): note: expanded from macro 'GPIOD'
+#define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./stm32f407xx_gpio_driver.h(123): note: passing argument to parameter 'pGPIOx' here
+ void GPIO_ToggleOutputPin(GPIO_RegDef_t *pGPIOx,uint8_t PinNumber);
+                                          ^
+MAIN.c(96): warning: no newline at end of file [-Wnewline-eof]
+        
+        ^
+24 warnings and 4 errors generated.
+compiling MAIN.c...
+compiling system_stm32f4xx.c...
+".\Objects\test5.axf" - 4 Error(s), 24 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.14.0.pack
+                Keil.STM32F4xx_DFP.2.14.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 2.6.3
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Users\hp-pc\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\hp-pc\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+
+   * Component: Keil::Device:Startup:2.6.3
+      Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f407xx.s
+      Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
+      Source file:   MDK\Device\Source\ARM\STM32F40xxx_41xxx_OPT.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
